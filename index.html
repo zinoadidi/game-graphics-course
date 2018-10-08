@@ -48,7 +48,6 @@
                 canvas.height = window.innerHeight;
                 document.body.appendChild(canvas);
 
-                app = PicoGL.createApp(canvas, {preserveDrawingBuffer: true});
                 window.onresize = function() {
                     app.resize(window.innerWidth, window.innerHeight);
                 };

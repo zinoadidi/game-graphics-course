@@ -14,6 +14,7 @@
 // ******************************************************
 // **                       Data                       **
 // ******************************************************
+app = PicoGL.createApp(canvas, {preserveDrawingBuffer: true});
 
 let positions = new Float32Array([
     // front
